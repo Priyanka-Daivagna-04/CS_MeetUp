@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Neon Pink + Purple Gradient Text */
+.neon-title {
+  background: linear-gradient(90deg, #ff00cc, #b300ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Soft Purple Glow Box */
+.glow-card {
+  box-shadow: 0 0 15px rgba(200, 0, 255, 0.3);
+}
+
+/* Video overlay */
+.video-overlay {
+  @apply absolute inset-0 bg-black/60;
+}
