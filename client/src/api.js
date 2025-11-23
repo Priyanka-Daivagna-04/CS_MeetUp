@@ -1,5 +1,5 @@
-// Use Render backend URL in production, localhost in development
-const BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
+// HARDCODED BACKEND URL (Render)
+const BASE = "https://cs-meetup.onrender.com";
 
 export const getMeetups = () =>
     fetch(`${BASE}/api/meetups`).then((res) => res.json());
